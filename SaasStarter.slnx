@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SaasStarter.Api/SaasStarter.Api.csproj" />
+    <Project Path="src/SaasStarter.AppHost/SaasStarter.AppHost.csproj" />
+    <Project Path="src/SaasStarter.Application/SaasStarter.Application.csproj" />
+    <Project Path="src/SaasStarter.Domain/SaasStarter.Domain.csproj" />
+    <Project Path="src/SaasStarter.Infrastructure/SaasStarter.Infrastructure.csproj" />
+    <Project Path="src/SaasStarter.ServiceDefaults/SaasStarter.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SaasStarter.IntegrationTests/SaasStarter.IntegrationTests.csproj" />
+    <Project Path="tests/SaasStarter.UnitTests/SaasStarter.UnitTests.csproj" />
+  </Folder>
+</Solution>
