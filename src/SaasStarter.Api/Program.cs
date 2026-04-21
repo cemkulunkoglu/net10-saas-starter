@@ -14,6 +14,7 @@ builder.Services.AddOpenApi();
 // PostgreSQL bağlantısı (Aspire'dan gelir, connection string adı: "appdb")
 builder.AddNpgsqlDbContext<AppDbContext>("appdb");
 builder.Services.AddInfrastructure();
+builder.Services.AddWolverineHttp();
 
 // Wolverine: Application assembly'sindeki handler'ları tara
 builder.Host.UseWolverine(opts =>
