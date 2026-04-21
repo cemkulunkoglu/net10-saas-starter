@@ -63,7 +63,7 @@ dotnet test
 ## 🗺️ Roadmap
 
 - [x] **Faz 1** — Solution skeleton, CI, conventional commits
-- [ ] **Faz 2** — Wolverine + EF Core + PostgreSQL + Scalar wiring
+- [x] **Faz 2** — Wolverine + EF Core + PostgreSQL + Scalar + Aspire orchestration
 - [ ] **Faz 3** — Multi-tenancy, auth, KVKK audit log
 - [ ] **Faz 4** — iyzico integration
 - [ ] **Faz 5** — e-Fatura scaffold
